@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.hero{
+    min-height: 100vh;
+    background: url(coffee.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    padding: 15px 0;
+}
+.logo{
+    color: #e4e2e2;
+    transition: .3s;
+}
+.logo:hover{
+    transform: translateX(15px);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    color: #e4e2e2;
+    font-size: 17px;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color: #7d675a;
+    border-bottom: 2px solid #7d675a;
+}
+nav button{
+    padding: 10px 35px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    background: #7d675a;
+    color: #e4e2e2;
+    margin-left: 20px;
+    transition: .3s;
+}
+nav button:hover{
+    scale:.8s;
+}
+.info{
+    position: absolute;
+    top: 35%;
+    left: 90px;
+}
+h1{
+    font-size: 30px;
+    color: #e4e2e2;
+    font-weight: bolder;
+}
+h1 b{
+    color: #7d675a;
+    font-size: 80px;
+}
+p{
+    font-size: 20px;
+    font-family: cursive;
+    color: #e4e2e2;
+    margin-top: 10px;
+}
+button{
+    padding: 12px 45px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #7d675a;
+    color: #e4e2e2;
+    margin-top: 40px;
+    transition: font-size .3s ease-in .3s;
+}
+button:hover{
+   scale: .8;
+}
+.social-media{
+    margin-top: 50px;
+}
+.social-media a{
+    margin: 10px;
+    font-size: 30px;
+    color: #e4e2e2;
+    transition: .3s;
+}
+.social-media a:hover{
+   color: #7d675a;
+}
